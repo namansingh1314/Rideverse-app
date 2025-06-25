@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "RideBookingApp",
+    "slug": "ride-booking-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "clerkPublishableKey": "pk_test_bWVldC1tYW1tYWwtODguY2xlcmsuYWNjb3VudHMuZGV2JA",
+      "supabaseUrl": "https://lvjpropfhebsepwjfjal.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx2anByb3BmaGVic2Vwd2pmamFsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk0Mzk0MTcsImV4cCI6MjA2NTAxNTQxN30.gcvHTPJPV_Dt8ESSn86XN1z8nbigfgvhRi9_WN4mZ0k"
+    }
+  }
+}
